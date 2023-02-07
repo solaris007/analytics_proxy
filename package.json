@@ -1,0 +1,21 @@
+{
+  "name": "analytics_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compose:build": "docker-compose build",
+    "compose:up": "docker-compose up -d",
+    "compose:down": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solaris007/npm-docker-nginx-reverse-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solaris007/npm-docker-nginx-reverse-proxy/issues"
+  },
+  "homepage": "https://github.com/solaris007/npm-docker-nginx-reverse-proxy#readme"
+}

@@ -1,0 +1,14 @@
+version: '2'
+services:
+  proxy:
+    build: ./
+    image: adobe/analytics_proxy
+    container_name: analytics_proxy
+    networks:
+      - analytics_proxy
+    ports:
+      - "8080:8080"
+      - "4443:4443"
+
+networks:
+  analytics_proxy:
